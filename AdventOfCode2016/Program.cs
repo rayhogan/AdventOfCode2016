@@ -30,6 +30,11 @@ namespace AdventOfCode2016
             Console.WriteLine("DAY 4");
             Console.ForegroundColor = ConsoleColor.White;
             Day4.Run();
+            
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("DAY 5 (May take a while!)");
+            Console.ForegroundColor = ConsoleColor.White;
+            Day5.Run();
         }
     }
 }
