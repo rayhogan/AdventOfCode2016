@@ -36,11 +36,17 @@ namespace AdventOfCode2016
             }
 
             //Spit out the block number for challenge 1
-            Console.WriteLine("Part I: " + CalculateBlocks(points.Last()));
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Part I");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine(CalculateBlocks(points.Last()));
 
             //Spit out the repeating node and block number for challenge 2
             Point FirstDup = FindFirstRepeatingNode(points);
-            Console.WriteLine("Part II: First Repeat @ Co-Ords"+FirstDup+" which is "+CalculateBlocks(FirstDup)+" blocks away");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Part II");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("First Repeat @ Co-Ords"+FirstDup+" which is "+CalculateBlocks(FirstDup)+" blocks away");
 
         }
 

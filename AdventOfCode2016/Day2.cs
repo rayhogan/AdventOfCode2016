@@ -25,7 +25,9 @@ namespace AdventOfCode2016
             int currentPosition = 5;
 
 
-            Console.Write("Part I Code: ");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Part I");
+            Console.ForegroundColor = ConsoleColor.White;
 
             //Loop through the instructions
             foreach (String line in lines)
@@ -79,6 +81,10 @@ namespace AdventOfCode2016
             //Input
             string[] lines = System.IO.File.ReadAllLines(@"..\..\Inputs\\Day2.txt");
 
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Part II");
+            Console.ForegroundColor = ConsoleColor.White;
+
             //Loop through the instructions
             foreach (String line in lines)
             {
@@ -128,7 +134,7 @@ namespace AdventOfCode2016
                 }
                 Console.Write(keyPad[currentPosition.X, currentPosition.Y]);
             }
-
+            Console.WriteLine(""); // Intentional empty space
         }
     }
 
