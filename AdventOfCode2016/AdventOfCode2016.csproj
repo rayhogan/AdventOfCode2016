@@ -47,6 +47,7 @@
     <Compile Include="Day1.cs" />
     <Compile Include="Day2.cs" />
     <Compile Include="Day3.cs" />
+    <Compile Include="Day4.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -55,6 +56,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Inputs\Day2_example - Copy.txt" />
+    <Content Include="Inputs\Day4.txt" />
+    <Content Include="Inputs\Day4_example2.txt" />
+    <Content Include="Inputs\Day4_example.txt" />
     <Content Include="Inputs\Day3_example.txt" />
     <Content Include="Inputs\Day2.txt" />
     <Content Include="Inputs\Day3.txt" />
