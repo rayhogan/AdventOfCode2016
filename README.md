@@ -1,4 +1,4 @@
-# AdventOfCode2016
+# Advent Of Code 2016
 AoC challenges completed:
 
 Day 1 challenge: http://adventofcode.com/2016/day/1 
