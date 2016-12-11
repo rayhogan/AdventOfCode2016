@@ -29,7 +29,7 @@ namespace AdventOfCode2016
             foreach (String entry in split)
             {
                 // Determine new orientation
-                orientation = entry.TrimStart().StartsWith("R") ? TurnRight(orientation) : TurnLeft(orientation);
+                orientation = entry.TrimStart().StartsWith("R") ? Turn(orientation, true) : Turn(orientation, false);
 
                 //Log my travels
                 TrackLocation(orientation, points, entry);
@@ -116,48 +116,35 @@ namespace AdventOfCode2016
             return output;
         }
 
-        private static char TurnRight(char orientation)
+        private static char Turn(char orientation, bool right)
         {
             if (orientation == 'n')
             {
-                return 'e';
+                if (right)
+                    return 'e';
+                else
+                    return 'w';
             }
             else if (orientation == 's')
             {
-                return 'w';
+                if (right)
+                    return 'w';
+                else
+                    return 'e';
             }
             else if (orientation == 'e')
             {
-                return 's';
+                if (right)
+                    return 's';
+                else
+                    return 'n';
             }
             else if (orientation == 'w')
             {
-                return 'n';
-            }
-            else
-            {
-                return new char();
-            }
-
-        }
-
-        private static char TurnLeft(char orientation)
-        {
-            if (orientation == 'n')
-            {
-                return 'w';
-            }
-            else if (orientation == 's')
-            {
-                return 'e';
-            }
-            else if (orientation == 'e')
-            {
-                return 'n';
-            }
-            else if (orientation == 'w')
-            {
-                return 's';
+                if (right)
+                    return 'n';
+                else
+                    return 's';
             }
             else
             {
