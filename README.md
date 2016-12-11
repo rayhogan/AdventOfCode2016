@@ -11,4 +11,6 @@ Day 4 challenge: http://adventofcode.com/2016/day/4
 
 Day 5 challenge: http://adventofcode.com/2016/day/5
 
+Day 6 challenge: http://adventofcode.com/2016/day/6
+
 
