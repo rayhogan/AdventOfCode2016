@@ -10,7 +10,7 @@ namespace AdventOfCode2016
     {
         static void Main(string[] args)
         {
-            /*
+
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("DAY 1");
             Console.ForegroundColor = ConsoleColor.White;
@@ -40,7 +40,7 @@ namespace AdventOfCode2016
             Console.WriteLine("DAY 6");
             Console.ForegroundColor = ConsoleColor.White;
             Day6.Run();
-            */
+
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("DAY 7");
             Console.ForegroundColor = ConsoleColor.White;
