@@ -50,6 +50,7 @@
     <Compile Include="Day4.cs" />
     <Compile Include="Day5.cs" />
     <Compile Include="Day6.cs" />
+    <Compile Include="Day7.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -63,6 +64,8 @@
     <Content Include="Inputs\Day4_example2.txt" />
     <Content Include="Inputs\Day4_example.txt" />
     <Content Include="Inputs\Day3_example.txt" />
+    <Content Include="Inputs\Day7_example.txt" />
+    <Content Include="Inputs\Day7.txt" />
     <Content Include="Inputs\Day6_example.txt" />
     <Content Include="Inputs\Day6.txt" />
     <Content Include="Inputs\Day3.txt" />
