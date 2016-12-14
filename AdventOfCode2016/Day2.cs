@@ -74,7 +74,9 @@ namespace AdventOfCode2016
               {'x', 'A', 'B', 'C', 'x'},
               {'x', 'x', 'D', 'x', 'x'},
           };
-
+            //Grid edge points
+            int min = 0;
+            int max = 4;
             //Point containing current position
             Point currentPosition = new Point(2, 0);
 
@@ -93,7 +95,7 @@ namespace AdventOfCode2016
                 {
                     if (a.Equals('U'))
                     {
-                        if ((currentPosition.X - 1) >= 0) //Check if move puts us off the grid...
+                        if ((currentPosition.X - 1) >= min) //Check if move puts us off the grid...
                         {
                             if ((keyPad[currentPosition.X - 1, currentPosition.Y]) != 'x')
                             {
@@ -103,7 +105,7 @@ namespace AdventOfCode2016
                     }
                     else if (a.Equals('D'))
                     {
-                        if ((currentPosition.X + 1) <= 4) //Check if move puts us off the grid...
+                        if ((currentPosition.X + 1) <= max) //Check if move puts us off the grid...
                         {
                             if ((keyPad[currentPosition.X + 1, currentPosition.Y]) != 'x')
                             {
@@ -113,7 +115,7 @@ namespace AdventOfCode2016
                     }
                     else if (a.Equals('R'))
                     {
-                        if ((currentPosition.Y + 1) <= 4) //Check if move puts us off the grid...
+                        if ((currentPosition.Y + 1) <= max) //Check if move puts us off the grid...
                         {
                             if ((keyPad[currentPosition.X, currentPosition.Y + 1]) != 'x')
                             {
@@ -123,7 +125,7 @@ namespace AdventOfCode2016
                     }
                     else if (a.Equals('L'))
                     {
-                        if ((currentPosition.Y - 1) >= 0) //Check if move puts us off the grid...
+                        if ((currentPosition.Y - 1) >= min) //Check if move puts us off the grid...
                         {
                             if ((keyPad[currentPosition.X, currentPosition.Y - 1]) != 'x')
                             {
