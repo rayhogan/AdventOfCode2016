@@ -14,3 +14,41 @@ Day 5 challenge: http://adventofcode.com/2016/day/5
 Day 6 challenge: http://adventofcode.com/2016/day/6
 
 Day 7 challenge: http://adventofcode.com/2016/day/7
+
+Not Completed
+
+Day 8 challenge: http://adventofcode.com/2016/day/8 
+
+Day 9 challenge: http://adventofcode.com/2016/day/9 
+
+Day 10 challenge: http://adventofcode.com/2016/day/10 
+
+Day 11 challenge: http://adventofcode.com/2016/day/11 
+
+Day 12 challenge: http://adventofcode.com/2016/day/12 
+
+Day 13 challenge: http://adventofcode.com/2016/day/13 
+
+Day 14 challenge: http://adventofcode.com/2016/day/14 
+
+Day 15 challenge: http://adventofcode.com/2016/day/15 
+
+Day 16 challenge: http://adventofcode.com/2016/day/16 
+
+Day 17 challenge: http://adventofcode.com/2016/day/17 
+
+Day 18 challenge: http://adventofcode.com/2016/day/18 
+
+Day 19 challenge: http://adventofcode.com/2016/day/19 
+
+Day 20 challenge: http://adventofcode.com/2016/day/20 
+
+Day 21 challenge: http://adventofcode.com/2016/day/21 
+
+Day 22 challenge: http://adventofcode.com/2016/day/22 
+
+Day 23 challenge: http://adventofcode.com/2016/day/23 
+
+Day 24 challenge: http://adventofcode.com/2016/day/24 
+
+Day 25 challenge: http://adventofcode.com/2016/day/25 
