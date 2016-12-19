@@ -1,5 +1,5 @@
 # Advent Of Code 2016
-AoC challenges completed:
+**AoC challenges completed:**
 
 Day 1 challenge: http://adventofcode.com/2016/day/1 
 
@@ -15,7 +15,7 @@ Day 6 challenge: http://adventofcode.com/2016/day/6
 
 Day 7 challenge: http://adventofcode.com/2016/day/7
 
-**Not Complete**
+**Not Completed**
 
 Day 8 challenge: http://adventofcode.com/2016/day/8 
 
