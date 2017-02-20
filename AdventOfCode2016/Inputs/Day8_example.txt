@@ -1,0 +1,4 @@
+﻿rect 3x2
+rotate column x=1 by 1
+rotate row y=2 by 1
+rotate column x=3 by 1
