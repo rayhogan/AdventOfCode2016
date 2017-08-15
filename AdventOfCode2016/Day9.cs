@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode2016
 {
-    public class CompressedSegment
-    {
 
-    }
     class Day9
     {
         public void Run()
