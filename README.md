@@ -15,11 +15,11 @@ Day 6 challenge: http://adventofcode.com/2016/day/6
 
 Day 7 challenge: http://adventofcode.com/2016/day/7
 
-**Not Completed**
-
 Day 8 challenge: http://adventofcode.com/2016/day/8 
 
 Day 9 challenge: http://adventofcode.com/2016/day/9 
+
+**Not Completed**
 
 Day 10 challenge: http://adventofcode.com/2016/day/10 
 
