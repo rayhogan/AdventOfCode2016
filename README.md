@@ -19,9 +19,9 @@ Day 8 challenge: http://adventofcode.com/2016/day/8
 
 Day 9 challenge: http://adventofcode.com/2016/day/9 
 
-**Not Completed**
-
 Day 10 challenge: http://adventofcode.com/2016/day/10 
+
+**Not Completed**
 
 Day 11 challenge: http://adventofcode.com/2016/day/11 
 
