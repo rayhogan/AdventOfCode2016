@@ -46,6 +46,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Day1.cs" />
+    <Compile Include="Day10.cs" />
+    <Compile Include="Day10Stuff\Bin.cs" />
+    <Compile Include="Day10Stuff\Bot.cs" />
+    <Compile Include="Day10Stuff\Container.cs" />
     <Compile Include="Day2.cs" />
     <Compile Include="Day3.cs" />
     <Compile Include="Day4.cs" />
@@ -66,6 +70,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Inputs\Day10_example.txt" />
     <Content Include="Inputs\Day2.txt" />
     <Content Include="Inputs\Day2_example.txt" />
     <Content Include="Inputs\Day4.txt" />
@@ -79,6 +84,7 @@
     <Content Include="Inputs\Day6_example.txt" />
     <Content Include="Inputs\Day6.txt" />
     <Content Include="Inputs\Day3.txt" />
+    <Content Include="Inputs\Day10.txt" />
     <Content Include="Inputs\Day9_example.txt" />
     <Content Include="Inputs\Day9.txt" />
   </ItemGroup>
